@@ -1,1 +1,2 @@
-# pw2-conta-cantina
+# Ariel Melo Ribeiro
+# Miguel Rescia Royo Felippe
