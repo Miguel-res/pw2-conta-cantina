@@ -1,18 +1,21 @@
+package br.com.etechoracio.Models;
 
-public class Conta_cantina {
+import br.com.etechoracio.Enums.TipoContaEnum;
+
+public class ContaCantina {
 
     private TipoContaEnum tipoConta;
     private double saldo;
     private double limite;
     private double saldoMinimo;
 
-    public Conta_cantina(double saldo) {
+    public ContaCantina(double saldo) {
         this.saldo = saldo;
         this.tipoConta = TipoContaEnum.ALUNO;
         this.saldoMinimo = 10;
     }
 
-    public Conta_cantina(TipoContaEnum tipoConta, double saldo) {
+    public ContaCantina(TipoContaEnum tipoConta, double saldo) {
 
         this.tipoConta = tipoConta;
         this.saldo = saldo;
@@ -92,4 +95,3 @@ public class Conta_cantina {
     }
 
 }
-
